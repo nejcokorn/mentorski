@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 
 // Return specific user by id
 router.get('/:id', (req, res) => {
-    res.json({});
+    res.send("back");
 });
 
 module.exports = router;
