@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.c-toolbar {
+    position: sticky;
+    position: -webkit-sticky;
+    /* For macOS/iOS Safari */
+    top: 0;
+    /* Sets the sticky toolbar to be on top */
+    z-index: 1000;
+
+}
+
+// .c-main {
+//     margin-top: 64px;
+// }
