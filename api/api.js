@@ -16,7 +16,7 @@ api.use((req, res, next) => {
     next();
 });
 
-api.use("/auth", user);
+api.use("/auth", auth);
 api.use("/user", user);
 api.use("/calendar", calendar);
 api.use("/settings", settings);

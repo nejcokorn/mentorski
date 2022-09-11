@@ -2,8 +2,9 @@ const express = require('express');
 const cookieParser = require("cookie-parser");
 const path = require('path');
 
+// create connection with database
 const session = require("express-session");
-const SQLiteStore = require("connect-sqlite3")(session);
+const MYSQLStore  = require("connect-sqlite3")(session);
 
 const api = require('./api/api');
 
